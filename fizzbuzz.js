@@ -18,3 +18,12 @@ Source: https://en.wikipedia.org/wiki/Fizz_buzz#Programming
     line
     comment
 */
+
+for (let variableName = 1; variableName < 31; variableName++) {
+    if (variableName %3 ==0 && variableName % 5 ==0) console.log ("fizzbuzz")
+    else {
+        if (variableName % 3 ==0) console.log ("fizz") 
+        if (variableName % 5 ==0) console.log ("buzz")
+        if (variableName % 3 != 0 && variableName % 5 != 0) console.log (variableName)
+    }
+}
